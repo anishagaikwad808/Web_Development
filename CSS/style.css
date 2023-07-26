@@ -1,0 +1,32 @@
+#Demo{
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+}
+#para01{
+    background-color: aquamarine;
+}
+.Item-Block{
+    background-color: #aaa;
+    border: 1px solid blue;
+    padding: 10px;
+}
+.Item-Group{
+    color: antiquewhite;
+}
+.div-main{
+    background-color: #ccc;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+h2{
+    color: darkred;
+}
+section{
+    border: 1px solid;
+    padding: 10px;
+}
+p,h2,h2{
+    text-align: center;
+}
