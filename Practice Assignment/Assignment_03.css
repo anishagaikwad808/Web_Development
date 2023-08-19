@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    color: white;
+}
+.header{
+    background-color: black;
+    padding: 10px;
+   
+}
+.left{
+   /* border:2px solid red;*/
+    display: inline-block;
+    top:  20px;
+    position: absolute;
+    left: 34px;
+    font-size: 20px;
+}
+.mid{
+    width: 33%;
+    margin: 10px auto;
+    display: block;
+  /* border:2px solid green;*/
+   top: 20px;
+   font-size: 20px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top:  20px;
+    display: inline-block;
+    font-size: 20px;
+    color: gray;
+}
+.btn{
+    background-color: black;
+    padding: 3px 5px;
+    color: white;
+    border-color: gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.navbar{
+    background-color:rgb(170, 167, 167);
+    padding: 35px;
+}
+.title{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    top: 70px;
+}
+.navigation{
+    display: inline-block;
+    right: 10px;
+    position: absolute;
+    top: 80px;
+}
+.navigation li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navigation li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.navigation li a:hover,.navigation li a.active{
+    color: rgb(12, 9, 9);
+    text-decoration: underline;   
+}
+section>img{
+    width: 100%;
+    height: 300px;
+    opacity: 0.3;
+    position: relative;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    position:absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 40px;
+    color: black;
+    }
+    h3{
+        position:absolute;
+        top: 250px;
+        left: 400px;
+        font-size: 40px;
+        color: black;
+    }
+    main{
+        padding:20px;
+        background-color: black;
+    }
+    .Para{
+        background-color:black;
+        padding: 30px;
+    }
+article{
+    background-color: gray;
+    padding: 40px;
+}
+article>div>img{
+    margin: 60px;
+}
+footer{
+    background-color:black;
+    padding-top: 20px;
+}
+footer>p{
+    font-size: 20px;
+    background-color: black;
+}
+
