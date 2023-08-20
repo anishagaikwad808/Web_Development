@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    color: white;
+}
+.header{
+    background-color: black;
+    padding: 10px;
+   
+}
+.left{
+   /* border:2px solid red;*/
+    display: inline-block;
+    top:  20px;
+    position: absolute;
+    left: 34px;
+    font-size: 20px;
+}
+.mid{
+    width: 33%;
+    margin: 10px auto;
+    display: block;
+  /* border:2px solid green;*/
+   top: 20px;
+   font-size: 20px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top:  20px;
+    display: inline-block;
+    font-size: 20px;
+    color: gray;
+}
+.btn{
+    background-color: black;
+    padding: 3px 5px;
+    color: white;
+    border-color: gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.navbar{
+    background-color:rgb(170, 167, 167);
+    padding: 35px;
+
+}
+.title{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    top: 70px;
+}
+.navigation{
+    display: inline-block;
+    right: 10px;
+    position: absolute;
+    top: 80px;
+}
+.navigation li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navigation li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.navigation li a:hover,.navigation li a.active{
+    color: rgb(12, 9, 9);
+    text-decoration: underline;   
+}
+#image{
+    height:300px;
+   /* border: 3px solid red;*/
+    position:relative;
+    width: 1349px;
+}
+main{
+    height:300px;
+    position: relative;
+}
+.head{
+   margin: 0;
+   padding: 10px;
+   background-color: gray;
+
+}
+.head > h1{
+    color: black;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+.main{
+    background-color: black;
+    padding: 80px;
+}
+.first{
+    display:inline-block;
+    /* border: 2px solid green; */
+    margin-right: 70px;
+    width: 21%;
+    background-color: gray;
+    padding: 20px;
+ 
+}
+.second{
+    display:inline-block;
+/* border: 2px solid green; */
+margin-right: 100px;
+width: 21%;
+background-color: gray;
+padding: 20px;
+}
+.third{
+    display:inline-block;
+    /* border: 2px solid green; */
+    margin-right: 70px;
+    width: 21%;
+    padding: 20px;
+    background-color: gray;
+}
+.content{
+    position: relative;
+}
+article>div{
+    display: inline-block;
+}
+input{
+    margin-left: 430px;
+    padding-inline-start: 20px;
+}
+.click{
+    margin-left: 470px;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+}
+button:hover{
+    background-color: black;
+    text-decoration: none;
+}
+article{
+    background-color:gray;
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+}
+footer>div{
+    font-size: 20px;
+}
