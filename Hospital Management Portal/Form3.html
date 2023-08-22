@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+	<title>Hospital Managament Portal</title>
+	<style>
+		 body{
+			margin:0;
+			padding:0;
+			background-image:url('Hospital.jpg');
+			background-color:#cccccc;
+			background-size:cover;
+			font-family:sans-serif;	
+			}
+            #title{
+                    font-size: 40px;
+            }
+		.information{
+				box-sizing:border-box;
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform:translate(-50%,-50%);
+				width:60%;
+				height:80%;
+                background:rgb(100, 37, 37);		
+        		color:black;
+				text-align:center;
+                font-size: 14px;
+
+
+			}
+            .information input[type="text"],
+		    .information input[type="password"],
+		    .information input[type="number"]
+			{
+				border:none;
+				border-bottom:1px solid black;
+				background:transparent;
+				height:30px;
+				color:black;
+				font-size:20px;
+				margin-bottom:20px;
+			}
+            button{
+                font-size:25px;
+                padding: 5px;
+                border-radius: 20px;
+                 color:white;
+                 background-color: black;
+            }
+
+		button:hover{
+				cursor:pointer;
+				background-color: rgb(165, 157, 157);
+				border-radius:20px;	
+		}
+	</style>
+</head>
+<body>
+	<div class="information">	
+		<form action="">
+			<h1 id="title">Patient Information<h1>
+
+			<label for="Name">Name:</label>
+			<input type="text" name="Name" id="Name"><br>
+
+			<label for="Mobile">Mobile:</label>
+			<input type="number" name="Password" id="Mobile"><br>
+
+			<label for="Email">Email:</label>
+			<input type="text" name="Email" id="Email"><br>
+
+			<label >Gender:</label>
+			<input type="text" id="Gender" name="Gender"><br>
+
+			<label for="Address">Address:</label>
+			<input type="text" id="Address" name="Address"></input><br>
+
+			<button><a href="D:\HTML\Web_Batch\CSS\Form1.html">Go Back</a></button>
+
+		</form>
+  	 </div>
+</body>
+</html>

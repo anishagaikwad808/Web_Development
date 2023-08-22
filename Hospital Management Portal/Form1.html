@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+	<title>Hospital Managament Portal</title>
+    <style>
+		body{
+			margin:0px;
+			padding:0px;
+			background-image:url('Hospital.jpg');
+			background-color:#cccccc;
+			background-size:cover;
+			font-family:sans-serif;
+		}
+		.Login{
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			width:500px;
+			height:500px;
+			box-sizing:border-box;
+			background:rgb(100, 37, 37);
+			color:black;
+			text-align:center;
+		}
+        .Login input[type="text"],
+		.Login input[type="password"]
+
+			{
+				border:none;
+				border-bottom:1px solid black;
+				background:transparent;
+				height:30px;
+				color:black;
+				font-size:20px;
+				margin-bottom:20px;
+			}
+			.name{
+				font-size: 16px;
+			}
+        button{
+                font-size:25px;
+                padding: 5px;
+                border-radius: 20px;
+                 color:white;
+                 background-color: black;
+            }
+
+		button:hover{
+				cursor:pointer;
+				background-color: rgb(165, 157, 157);
+				border-radius:20px;	
+		}
+          
+		
+	</style>
+</head>
+<body>
+		<div class="Login">
+
+			<h1>Login Details</h1>
+			<p for="username" class="name">Username:</p>
+			<input type="text" name="Username" id="username" placeholder="Enter name"><br><br>
+			<p for="password" class="name">Password:</p>
+			<input type="password" name="Password" id="password" placeholder="....."><br><br>
+			<button><a href="D:\HTML\Web_Batch\CSS\Form2.html" >Login</a></button>
+		</div>
+</body>
+</html>
